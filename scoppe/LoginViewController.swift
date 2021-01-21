@@ -42,18 +42,17 @@ class LoginViewController: UIViewController {
     }
     
     @objc func keyboardWillChange(notification: Notification) {
-        guard let keyboardRect = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else { return }
-        if notification.name == UIResponder.keyboardWillShowNotification ||
-            notification.name == UIResponder.keyboardWillChangeFrameNotification {
-            let hiddenTextFieldHeight = keyboardRect.minY - passwordTextField.frame.maxY - 10
-            if hiddenTextFieldHeight < 0 {
-                // causes some wierd behaviour in landscape mode (zooms the view while textfield selected)
-                self.view.frame.origin.y = hiddenTextFieldHeight
-            }
-        } else {
-            view.frame.origin.y = 0
-        }
-        view.layoutIfNeeded()
+//        guard let keyboardRect = (notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else { return }
+//        if notification.name == UIResponder.keyboardWillShowNotification ||
+//            notification.name == UIResponder.keyboardWillChangeFrameNotification {
+//            let hiddenTextFieldHeight = keyboardRect.minY - passwordTextField.frame.maxY - 10
+//            if hiddenTextFieldHeight < 0 {
+//                // causes some wierd behaviour in landscape mode (zooms the view while textfield selected)
+//                self.view.frame.origin.y = hiddenTextFieldHeight
+//            }
+//        } else {
+//            view.frame.origin.y = 0
+//        }
     }
     
     
