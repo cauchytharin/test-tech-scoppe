@@ -1,0 +1,6 @@
+framework module Pods_scoppe {
+  umbrella header "Pods-scoppe-umbrella.h"
+
+  export *
+  module * { export * }
+}

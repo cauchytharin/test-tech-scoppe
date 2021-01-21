@@ -1,0 +1,6 @@
+framework module Pods_scoppeTests {
+  umbrella header "Pods-scoppeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
