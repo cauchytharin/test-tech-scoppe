@@ -122,6 +122,41 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E054CC6E25BAE78F0040C342 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				E018669725B89A9C00A54BCC /* LeftPaddedTextField.swift */,
+				E0DFC2B225B9BBC10023DE72 /* RoundedImageView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		E054CC6F25BAE7B60040C342 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E058540025B86FC4005BD9E3 /* LoginViewController.swift */,
+				E0DFC2A225B99E3A0023DE72 /* ProfileViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E054CC7325BAE7CF0040C342 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E058540225B86FC4005BD9E3 /* Main.storyboard */,
+				E058540725B86FC7005BD9E3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E054CC7425BAE7D90040C342 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0DFC2A725B9A5CF0023DE72 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E05853F025B86FC4005BD9E3 = {
 			isa = PBXGroup;
 			children = (
@@ -151,13 +186,10 @@
 				E058540525B86FC7005BD9E3 /* Assets.xcassets */,
 				E05853FC25B86FC4005BD9E3 /* AppDelegate.swift */,
 				E05853FE25B86FC4005BD9E3 /* SceneDelegate.swift */,
-				E018669725B89A9C00A54BCC /* LeftPaddedTextField.swift */,
-				E0DFC2B225B9BBC10023DE72 /* RoundedImageView.swift */,
-				E058540025B86FC4005BD9E3 /* LoginViewController.swift */,
-				E0DFC2A225B99E3A0023DE72 /* ProfileViewController.swift */,
-				E058540225B86FC4005BD9E3 /* Main.storyboard */,
-				E058540725B86FC7005BD9E3 /* LaunchScreen.storyboard */,
-				E0DFC2A725B9A5CF0023DE72 /* User.swift */,
+				E054CC7425BAE7D90040C342 /* Models */,
+				E054CC6E25BAE78F0040C342 /* Custom Views */,
+				E054CC6F25BAE7B60040C342 /* View Controllers */,
+				E054CC7325BAE7CF0040C342 /* Storyboards */,
 			);
 			path = scoppe;
 			sourceTree = "<group>";
