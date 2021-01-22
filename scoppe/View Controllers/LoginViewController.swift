@@ -107,6 +107,7 @@ class LoginViewController: UIViewController {
             textField.textContentType = .emailAddress
         }
         alertController.addAction(UIAlertAction(title: "Réinitialiser", style: .default, handler: nil))
+        alertController.addAction(UIAlertAction(title: "Annuler", style: .destructive, handler: nil))
         present(alertController, animated: true)
     }
     
